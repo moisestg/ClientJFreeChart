@@ -8,9 +8,9 @@
   <name>ClientJFreeChart</name>
 
   <scm>
-    <connection>scm:git:git@github.com:mois3luco/ClientJFreeChart.git</connection>
-    <developerConnection>scm:git:git@github.com:mois3luco/ClientJFreeChart.git</developerConnection>
-    <url>scm:git:git@github.com:mois3luco/ClientJFreeChart.git</url>
+    <connection>scm:git:git://github.com/mois3luco/ClientJFreeChart.git</connection>
+    <developerConnection>scm:git:https://mois3luco@github.com/mois3luco/ClientJFreeChart.git</developerConnection>
+    <url>https://github.com/mois3luco/ClientJFreeChart</url>
   </scm>
 
    <build>
