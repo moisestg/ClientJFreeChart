@@ -9,10 +9,23 @@
 
   <scm>
     <connection>scm:git:git://github.com/mois3luco/ClientJFreeChart.git</connection>
-    <developerConnection>scm:git:git@github.com:mois3luco/ClientJFreeChart.git</developerConnection>
+    <developerConnection>scm:git:https://mois3luco@github.com/mois3luco/ClientJFreeChart.git</developerConnection>
     <url>https://github.com/mois3luco/ClientJFreeChart</url>
   </scm>
 
+   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-plugin</artifactId>
+        <version>1.8.1</version>
+        <configuration>
+          <goals>install</goals>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
   <!-- General dependencies for all systems -->
   <dependencies>
     <dependency>
@@ -25,6 +38,7 @@
       <groupId>net.sf.json-lib</groupId>
       <artifactId>json-lib</artifactId>
       <version>2.4</version>
+	  <classifier>jdk15</classifier>
     </dependency>
 	
 	<dependency>
